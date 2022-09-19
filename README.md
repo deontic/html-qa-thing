@@ -3,3 +3,24 @@
 * prints a table of HTML elements used, containing the tag name, id and class(es) for each
 * logs the % difference in the amount of pixels (should be configured depending on your use-case)
 * generates diff.png
+
+## usage
+```python
+# converting it to work from the command line is trivial
+
+from htmlqa import htmlqa
+htmlqa.htmlqa({"path": r"path\to\file1.html"}, {
+       "path": r"path\to\file2.html", "css_files": [r"path\to\a.css", r"path\to\b.css"]}, True)
+       
+# object attributes 
+# path: path to HTML file
+# css_files: a list of multiple css files or a single css file used by an HTML file
+# if you specify css files used in an HTML file make sure you're actually including them
+# e.g with <link rel="stylesheet" type="text/css" href="./styles.css"  />
+# it might work if you don't specify `css_files` too but it's not guaranteed
+
+```
+
+dependencies can be installed by navigating to this directory and running `pip -r requirements.txt`
+
+depends on lxml, PIL, pixelmatch, bs4, html2image
