@@ -1,8 +1,10 @@
 # html-qa-thing
 
+quick thing made for a specific purpose
+
 * prints a table of HTML elements used, containing the tag name, id and class(es) for each
 * logs the % difference in the amount of pixels (should be configured depending on your use-case)
-* generates diff.png
+* generates diff.png in the current working directory
 
 ## usage
 
@@ -10,7 +12,7 @@
 
 ```python
 # converting it to work from the command line is trivial
-
+# the htmlqa folder should be placed under the parent directory of the file you're calling htmlqa from 
 from htmlqa import htmlqa
 htmlqa.htmlqa({"path": r"path\to\file1.html"}, {
        "path": r"path\to\file2.html", "css_files": [r"path\to\a.css", r"path\to\b.css"]}, True)
