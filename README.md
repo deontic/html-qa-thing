@@ -1,6 +1,6 @@
 # html-qa-thing
 
-quick module hacked together for a specific purpose
+quick script hacked together for a specific purpose
 
 * logs a table of HTML elements used, containing the tag name, id and class(es) for each
 * logs the % difference in the amount of pixels between images of rendered HTML (with chrome) (should be configured depending on your use-case) and generates diff.png in the current working directory
