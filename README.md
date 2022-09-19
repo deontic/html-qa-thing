@@ -1,6 +1,6 @@
 # html-qa-thing
 
-quick thing made for a specific purpose
+quick thing hacked together for a specific purpose
 
 * logs a table of HTML elements used, containing the tag name, id and class(es) for each
 * logs the % difference in the amount of pixels between images of rendered HTML (with chrome) (should be configured depending on your use-case) and generates diff.png in the current working directory
@@ -25,7 +25,7 @@ htmlqa.htmlqa({"path": r"path\to\file1.html"}, {
 
 ```
 ## requirements
-Python 3
+Python 3.x
 dependencies can be installed by navigating to this directory and running `pip -r requirements.txt`
 
 
