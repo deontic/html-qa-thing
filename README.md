@@ -2,8 +2,8 @@
 
 quick script hacked together for a specific purpose
 
-* logs a table of HTML elements used, containing the tag name, id and class(es) for each
-* logs the % difference in the amount of pixels between images of rendered HTML (with chrome) (should be configured depending on your use-case) and generates diff.png in the current working directory
+* logs a table of HTML elements used, containing the tag name, id and class(es) for each, in two files
+* logs the % difference in the amount of pixels between images of rendered HTML for both files (with chrome) (should be configured depending on your use-case) and generates diff.png in the current working directory
 
 ## usage
 
