@@ -5,6 +5,9 @@
 * generates diff.png
 
 ## usage
+
+### htmlqa: (file1: dict, file2: dict, should_justify: bool, image_size: tuple = (1920, 1080)) -> None
+
 ```python
 # converting it to work from the command line is trivial
 
@@ -12,7 +15,7 @@ from htmlqa import htmlqa
 htmlqa.htmlqa({"path": r"path\to\file1.html"}, {
        "path": r"path\to\file2.html", "css_files": [r"path\to\a.css", r"path\to\b.css"]}, True)
        
-# object attributes 
+# dict attributes 
 # path: path to HTML file
 # css_files: a list of multiple css files or a single css file used by an HTML file
 # if you specify css files used in an HTML file make sure you're actually including them
