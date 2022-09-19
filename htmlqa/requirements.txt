@@ -1,0 +1,5 @@
+lxml
+Pillow
+pixelmatch
+html2image
+beautifulsoup4
