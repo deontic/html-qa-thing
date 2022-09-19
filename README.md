@@ -24,7 +24,10 @@ htmlqa.htmlqa({"path": r"path\to\file1.html"}, {
 # it might work if you don't specify `css_files` too but it's not guaranteed
 
 ```
-
+## requirements
+Python 3
 dependencies can be installed by navigating to this directory and running `pip -r requirements.txt`
+
+
 
 depends on lxml, PIL, pixelmatch, bs4, html2image
