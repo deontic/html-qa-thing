@@ -26,7 +26,9 @@ htmlqa.htmlqa({"path": r"path\to\file1.html"}, {
 ```
 ## requirements
 Chrome
+
 Python 3.x
+
 dependencies can be installed by navigating to this directory and running `pip -r requirements.txt`
 
 
